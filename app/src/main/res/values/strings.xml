@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Reservasi Klinik</string>
+    <string name="login_uppercase">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="email_uppercase">EMAIL</string>
+    <string name="password_uppercase">PASSWORD</string>
+    <string name="password">Password</string>
+    <string name="dashboard_uppercase">DASHBOARD</string>
+    <string name="gambar_menu">Gambar Menu</string>
+    <string name="nama_menu">Nama Menu</string>
+    <string name="reservasi">Reservasi</string>
+    <string name="riwayat_reservasi">Riwayat Reservasi</string>
+    <string name="jadwal_dokter">Jadwal Dokter</string>
+    <string name="logout">Logout</string>
+    <string name="nama_uppercase">NAMA</string>
+    <string name="nama">Nama</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="nama_lengkap_uppercase">NAMA LENGKAP</string>
+    <string name="usia">Usia</string>
+    <string name="usia_uppercase">USIA</string>
+    <string name="reservasi_uppercase">RESERVASI</string>
+    <string name="jenis_kelamin_uppercase">JENIS KELAMIN</string>
+    <string name="laki_laki">Laki-laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="riwayat_reservasi_uppercase">RIWAYAT RESERVASI</string>
+    <string name="waktu_pagi">08.00</string>
+    <string name="waktu_sore">16.00</string>
+    <string name="waktu_praktek_uppercase">WAKTU PRAKTEK</string>
+</resources>

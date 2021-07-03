@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvReservasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/reservasi_uppercase"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvReservasi">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_lengkap_uppercase" />
+
+        <EditText
+            android:id="@+id/etReservasiNamaLengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="Nama Lengkap"
+            android:hint="@string/nama_lengkap"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/usia_uppercase" />
+
+        <EditText
+            android:id="@+id/etReservasiUsia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="Usia"
+            android:hint="@string/usia"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jenis_kelamin_uppercase" />
+
+        <RadioGroup
+            android:id="@+id/rgJenisKelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="@string/laki_laki" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="@string/perempuan" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/waktu_praktek_uppercase" />
+
+        <RadioGroup
+            android:id="@+id/rgWaktu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioPagi"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="@string/waktu_pagi" />
+
+            <RadioButton
+                android:id="@+id/radioSore"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="@string/waktu_sore" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnReservasi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/reservasi_uppercase"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

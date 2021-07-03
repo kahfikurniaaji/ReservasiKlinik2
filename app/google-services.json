@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "487391122722",
+    "project_id": "reservasi-klinik",
+    "storage_bucket": "reservasi-klinik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487391122722:android:3d5bb2a99cbf9203cf817b",
+        "android_client_info": {
+          "package_name": "com.kelompok7.reservasiklinik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487391122722-fcq4ju10ph0vduk47bma31ja59lhne4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASpxdthYs67cIko5c9SG_oN7TPxpZIF-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487391122722-fcq4ju10ph0vduk47bma31ja59lhne4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

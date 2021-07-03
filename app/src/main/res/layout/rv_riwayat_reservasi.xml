@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvTanggal"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="5dp"
+        android:text="Tanggal dan Jam" />
+
+    <TextView
+        android:id="@+id/tvNamaLengkap"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:text="Nama Lengkap" />
+
+    <TextView
+        android:id="@+id/tvWaktu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="5dp"
+        android:text="Waktu" />
+
+</LinearLayout>
